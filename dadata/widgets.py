@@ -76,7 +76,7 @@ class DadataWidget(forms.TextInput):
             if jscode:
                 jscode = self.render_jscript(options, jscode) 
         
-        s = unicode(super(DadataWidget, self).render(name, value, attrs))
+        s = super(DadataWidget, self).render(name, value, attrs)
         s += jscode
         return mark_safe(s)
     
