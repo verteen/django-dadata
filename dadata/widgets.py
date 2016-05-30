@@ -87,7 +87,6 @@ class DadataWidget(forms.TextInput):
         
         css = {
                'all': ('https://dadata.ru/static/css/lib/suggestions-15.8.css',
-                       'dadata/css/common.css',
                        )
                } 
 
